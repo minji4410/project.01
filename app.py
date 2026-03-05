@@ -67,12 +67,12 @@ if choice == "전체 보기" or choice == "🦒 목·어깨":
     
     with col1:
         st.subheader("📺 스트레칭 1")
-        st.video("https://youtube.com/shorts/ltjTJj1jv4A?si=f6tuQ7Vbhkulwun4")
+        st.video("https://youtube.com/watch?v=ltjTJj1jv4A?si=f6tuQ7Vbhkulwun4")
         st.write("어깨와 승모근이 아플때 앉아서 하기 좋습니다.")
 
     with col2:
         st.subheader("📺 스트레칭 2")
-        st.video("https://youtube.com/shorts/sFMjbukgq4s?si=PDyfgsuPkYU371wF") 
+        st.video("https://youtube.com/watch?v=sFMjbukgq4s?si=PDyfgsuPkYU371wF") 
         st.write("목이 뻐근할 때 하기 좋습니다.")
 
     with col3:
@@ -83,7 +83,7 @@ if choice == "전체 보기" or choice == "🧍 허리":
     st.markdown('<p class="section-header">🧍 섹션 2. 허리 통증</p>', unsafe_allow_html=True)
     col1, col2 = st.columns([1.5, 1])
     with col1:
-        st.video("https://youtube.com/shorts/33C8ujK5drw?si=ZyQtTkQpU1_Ut6lU")
+        st.video("https://youtube.com/watch?v=33C8ujK5drw?si=ZyQtTkQpU1_Ut6lU")
     with col2:
         st.markdown('<div class="tip-box"><b>🏥 일상 팁</b><br>- 오래 서 있을 때 발판에 발 교대로 올리기<br>- 틈틈이 허리 젖히기 운동</div>', unsafe_allow_html=True)
 
@@ -92,7 +92,7 @@ if choice == "전체 보기" or choice == "👐 손목":
     st.markdown('<p class="section-header">👐 섹션 3. 손목 통증</p>', unsafe_allow_html=True)
     col1, col2 = st.columns([1.5, 1])
     with col1:
-        st.video("https://youtube.com/shorts/waEegh-wIVU?si=ctCRkwjO2JKagVl6")
+        st.video("https://youtube.com/watch?v=waEegh-wIVU?si=ctCRkwjO2JKagVl6")
     with col2:
         st.markdown('<div class="tip-box"><b>🏥 일상 팁</b><br>- 손바닥을 벽에 대고 스트레칭 하기<br>- 무거운 조리도구 양손 사용하기</div>', unsafe_allow_html=True)
 
@@ -101,7 +101,7 @@ if choice == "전체 보기" or choice == "🦶 다리·발목":
     st.markdown('<p class="section-header">🦶 섹션 4. 다리와 발목 (운전 포함)</p>', unsafe_allow_html=True)
     col1, col2 = st.columns([1.5, 1])
     with col1:
-        st.video("https://youtube.com/shorts/GrWC9JgnAEE?si=fUXjzWGPShlirA6_")
+        st.video("https://youtube.com/watch?v=GrWC9JgnAEE?si=fUXjzWGPShlirA6_")
     with col2:
         st.markdown('<div class="tip-box"><b>🏥 일상 팁</b><br>- 1시간 운전 후 꼭 내려서 걷기<br>- 발목 돌리기와 까치발 운동</div>', unsafe_allow_html=True)
 
@@ -109,4 +109,5 @@ if choice == "전체 보기" or choice == "🦶 다리·발목":
 st.write("---")
 st.caption("제작: 00대학교 물리치료학과 조별과제 (조장: 김민지)")
 st.caption("자료 출처: 안전보건공단 및 근로복지공단 건강 가이드라인")
+
 
